@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+.project {
+    background-color: white;
+    border-radius: 8px;
+   /* padding: 20px;*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.project:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.project p {
+    color: #777777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.project a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.project a:hover {
+    color: #0056b3;
+}
+.interest {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+.interest:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
